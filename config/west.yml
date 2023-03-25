@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: chai-md
+      url-base: https://github.com/chai-md
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: chai-md
       revision: main
       import: app/west.yml
   self:
